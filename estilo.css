@@ -1,39 +1,56 @@
 body{
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    font-family: Arial, sans-serif; 
 }
 
 #topo-principal{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #1B3C53; 
+    color: #fff; 
+    padding: 20px; 
 }
 
 .card{
-    background-color: white;
-    border-radius: 10px;
-    width: 200px;
+    background-color: #456882; 
+    border-radius: 10px; 
+    width: 200px; 
+    /* Deixa os cubinhos um do lado do outro */
+    padding: 15px;     
+    margin: 10px; 
+    display: inline-block;
 }
 
 p span{
     font-weight: bold;
-    color: blue;
+    color: #E3E3E3; 
 }
 
 h1, h2{
-    color: #2c3e50;
+    color: #E3E3E3; 
 }
 
 .card.destaque{
-    border: 3px solid gold;
-    transform: scale(1.05);
+    border: 3px solid black; 
+    transform: scale(1.05); 
 }
 
 button:hover{
-    background-color: #27ae60;
-    cursor: pointer;
+    background-color: #27ae60; 
+    cursor: pointer; 
 }
 
 nav ul li:nth-child(2) {
-    text-transform: uppercase;
+    text-transform: uppercase; 
+}
+
+/* Arruma a cor dos links do cabeçalho */
+a{
+    color: #E3E3E3;
+}
+
+/* Arruma a parte dos links */
+nav ul {
+    display: flex;
+    gap: 40px;
+    color: white;
+    list-style: none;
 }
